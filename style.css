@@ -73,7 +73,7 @@ body{
     margin: 0;
 }
 
-.col-md-5 img {
+.t20-img img {
     border-radius: 15px; 
     box-shadow: 0 8px 16px rgba(0, 0, 0, 1);
     width: 70%;
@@ -91,7 +91,7 @@ body{
     color: antiquewhite;
 }
 
-.order-md-1 img{
+.odi-img img{
     border-radius: 15px; 
     box-shadow: 0 8px 16px rgba(0, 0, 0, 1);
     width: 70%;
@@ -104,8 +104,8 @@ body{
 }
 
 .odi-inner {
-    background: linear-gradient(135deg, #eaecee, #b0adab);
-    color: #373A40;
+    background: linear-gradient(135deg, #0033A0, #FF6F00);
+    color: #FFFFFF; 
     padding: 2rem;
 }
 
@@ -113,7 +113,7 @@ body{
     border-radius: 15px; 
     box-shadow: 0 8px 16px rgba(0, 0, 0, 1);
     width: 70%;
-    max-width: 400px; 
+    max-width: 100%; 
     height: auto; 
     object-fit: cover;
     display: block;
@@ -158,13 +158,14 @@ body{
 }
 
 .test-inner {
-    background: linear-gradient(135deg, #0033A0, #FF6F00);
-    color: #FFFFFF; 
-    padding: 2rem;
+
     border-radius: 15px; 
+    background: linear-gradient(135deg, #eaecee, #b0adab);
+    color: #373A40;
+    padding: 2rem;
 }
 
-.T20 .featurette-heading {
+.Odi .featurette-heading {
     color: #FFD700; /* Gold color for headings */
 }
 
@@ -172,7 +173,7 @@ body{
     border-radius: 15px; 
     box-shadow: 0 8px 16px rgba(0, 0, 0, 1);
     width: 70%;
-    max-width: 400px; 
+    max-width: 100%; 
     height: auto; 
     object-fit: cover;
     display: block;
